@@ -89,3 +89,19 @@ Developed as a low-cost approach towards intelligent machine health monitoring a
 - I2C for MPU9250 communication.
 - OneWire for DS18B20 temperature sensing.
 - Serial communication at 115200 baud.
+
+## Experimental Observations
+
+The prototype was tested under different motor operating conditions.
+
+| Parameter | Observation |
+|---|---|
+| Temperature sensing | Real-time readings using DS18B20 |
+| Vibration sensing | MPU9250 accelerometer |
+| Baseline learning | 20 sampling cycles |
+| Fault threshold | Vibration score >= 1.50 |
+| Temperature threshold | 50°C |
+| Fault persistence | 3 seconds |
+| Protection | Automatic motor shutdown |
+
+The system uses baseline-relative vibration scoring and sustained-fault detection to reduce false shutdowns caused by momentary disturbances.
