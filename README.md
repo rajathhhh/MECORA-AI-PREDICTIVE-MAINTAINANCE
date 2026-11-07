@@ -75,3 +75,17 @@ Developed as a low-cost approach towards intelligent machine health monitoring a
 
 ### Hardware Assembly
 ![Mecora Hardware](MECORA%20prototype%201.jpeg)
+## Hardware Pin Connections
+
+| Component | ESP32 Connection |
+|---|---|
+| MPU9250 SDA | GPIO 21 |
+| MPU9250 SCL | GPIO 22 |
+| DS18B20 Data | GPIO 4 |
+| L298N IN1 | GPIO 26 |
+| L298N IN2 | GPIO 27 |
+
+### Communication Protocols
+- I2C for MPU9250 communication.
+- OneWire for DS18B20 temperature sensing.
+- Serial communication at 115200 baud.
