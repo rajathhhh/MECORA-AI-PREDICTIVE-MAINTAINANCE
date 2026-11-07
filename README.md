@@ -68,3 +68,10 @@ Status: Ongoing
 ⸻
 
 Developed as a low-cost approach towards intelligent machine health monitoring and predictive maintenance.
+## Prototype Gallery
+
+### Main Prototype
+![Mecora Prototype](MECORA%20prototype.jpeg)
+
+### Hardware Assembly
+![Mecora Hardware](MECORA%20prototype%201.jpeg)
